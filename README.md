@@ -1,16 +1,39 @@
-# React + Vite
+# 🌤️ Weather App - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive Weather Application built with **React.js** and **Vite**. This app provides real-time weather updates using a weather API and is deployed on **Vercel**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Check out the live project here: [https://weather-app-vikash-980s-projects.vercel.app/](https://weather-app-vikash-980s-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+* **Real-time Weather:** Fetches live data including temperature, humidity, and wind speed.
+* **City Search:** Look up weather information for any city worldwide.
+* **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
+* **Modern UI:** Built with a clean interface for a better user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* **Frontend:** React.js (Hooks, Functional Components)
+* **Build Tool:** Vite
+* **Deployment:** Vercel
+* **Styling:** CSS3 / Tailwind (Add yours if used)
+* **API:** OpenWeatherMap API (or your specific API)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+
+If you want to run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/weather-app.git](https://github.com/your-username/weather-app.git)
+   cd weather-app
+   npm install
+   VITE_APP_ID=your_api_key_here
+   npm run dev
+
+   ```
+
+   
